@@ -2,25 +2,51 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Age Calculator</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jikku Thomas | Portfolio</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
-<div class="container">
-    <h1>Age Calculator</h1>
+<nav class="navbar">
+    <div class="logo">JT</div>
 
-    <!-- Date input -->
-    <label for="dob">Enter Date of Birth:</label>
-    <input type="date" id="dob">
+    <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
 
-    <!-- Button -->
-    <button onclick="calculateAge()">Calculate Age</button>
+    <button id="themeToggle">🌙</button>
+</nav>
 
-    <!-- Result -->
-    <p id="result"></p>
-</div>
+<section id="home" class="hero">
+    <div class="hero-content">
+        <div class="hero-text">
+            <h3>Hello, I'm</h3>
+            <h1>Jikku Thomas</h1>
+            <h2><span id="typing"></span></h2>
+
+            <p>
+                Assistant Professor | AI Researcher | Machine Learning |
+                Python Developer | UiPath Academic Alliance Educator
+            </p>
+
+            <a href="#" class="btn">Download Resume</a>
+        </div>
+
+        <div class="hero-image">
+            <img src="profile.jpg" alt="Jikku Thomas">
+        </div>
+    </div>
+</section>
 
 <script src="script.js"></script>
+
 </body>
 </html>
